@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import { Tag } from "./Tag";
+import { useUser } from "./useUser";
+import styled from "styled-components";
+import Image from "./tagit-logo.png";
+import NotFound from "./pages/NotFound";
+
+const Logo = styled.img`
+  width: 60px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+`;
 
 function App() {
+  const user = useUser();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<NotFound />} />
+        <Route path="/tag/:id" element={<Tag user={user} />} />
+      </Routes>
+      <Logo src={Image} />
     </div>
   );
 }

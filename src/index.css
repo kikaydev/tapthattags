@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@font-face {
+    font-family: "dillan";
+    src: url("./dillan.otf");
+  }
+  a {
+    text-decoration: none;
+  }
+  body {
+    background: #faf9f6;
+    padding: 20px;
+  }
+  * {
+    font-family: "dillan" !important;
+    color: #36312d;
+    box-sizing: border-box;
+  }
