@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.534b13fa.css",
-    "main.js": "/static/js/main.481c61ff.js",
-    "static/media/dillan.otf": "/static/media/dillan.d23a81e7ac16a9146781.otf",
-    "static/media/tagit-logo.png": "/static/media/tagit-logo.0b53ddb6a32d5f380097.png",
-    "index.html": "/index.html",
-    "main.534b13fa.css.map": "/static/css/main.534b13fa.css.map",
-    "main.481c61ff.js.map": "/static/js/main.481c61ff.js.map"
+    "main.css": "/tapthattags/static/css/main.169b1591.css",
+    "main.js": "/tapthattags/static/js/main.274ba308.js",
+    "static/media/dillan.otf": "/tapthattags/static/media/dillan.d23a81e7ac16a9146781.otf",
+    "static/media/tagit-logo.png": "/tapthattags/static/media/tagit-logo.0b53ddb6a32d5f380097.png",
+    "index.html": "/tapthattags/index.html",
+    "main.169b1591.css.map": "/tapthattags/static/css/main.169b1591.css.map",
+    "main.274ba308.js.map": "/tapthattags/static/js/main.274ba308.js.map"
   },
   "entrypoints": [
-    "static/css/main.534b13fa.css",
-    "static/js/main.481c61ff.js"
+    "static/css/main.169b1591.css",
+    "static/js/main.274ba308.js"
   ]
 }
